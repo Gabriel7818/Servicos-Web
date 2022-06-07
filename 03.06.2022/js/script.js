@@ -2,11 +2,6 @@ function moeda(){
     var moeda = document.getElementById("Moeda").value;
     var url = 'https://economia.awesomeapi.com.br/json/last/' + moeda;
     var servico = new XMLHttpRequest(); // XMLHttpRequest é uma classe para Javascript
-    const moedas = () => {
-        USDBRL;
-        EURBRL;
-        BTCBRL;
-    }
 
     servico.open('GET', url); // GET abre o site informado em (var url, url)
 
