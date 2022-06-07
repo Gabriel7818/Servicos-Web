@@ -31,5 +31,5 @@ function moeda(){
         }   
     }
 
-    servico.send() // Fim da requisição
+    servico.send(); // Fim da requisição
 }
